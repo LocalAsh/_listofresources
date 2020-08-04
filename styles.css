@@ -6,16 +6,29 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.5rem;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Thasadith', sans-serif;
     font-weight: 700;
-    background-color: gray;
-    color: #fff;
+    background-color: #e2dddd;
+    color: #4b4646;
 }
 
 .container {
     margin: 20px;
     margin-left: 32px;
     max-width: 85%;
+}
+
+.lists__main a {
+    width: 20px;
+    height: 20px;
+    transition: .4s linear;
+}
+
+.list__main a:hover {
+    transform: scale(.8);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
 }
 
 .lists__main {
@@ -37,7 +50,7 @@ body {
 }
 
 .lists__main li {
-    margin-top: 8px;
+    margin-top: 12px;
     background-color: #d4ddee;
     color: #2b2828;
     border-radius: 4px;
@@ -59,6 +72,11 @@ body {
     border: 1px solid #000;
     border-radius: 8px;
     padding: 12px;
+    margin: 20px 0px;
+}
+
+.thread__list {
+    background-color: #f7eff7;
 }
 
 #free {
@@ -118,4 +136,12 @@ body {
     border-top: 2px solid;
     border-bottom: 2px solid;
     transform: skewY(-20deg);
+}
+
+footer {
+    text-align: center;
+}
+
+.fa-heart {
+    color: red;
 }
